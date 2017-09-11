@@ -62,7 +62,7 @@ handleSignatureOfGuest(event) {
            penColor='black'
            value={this.state.SignatureOfGuest}
            placeholder="Page 1 Title:"
-           canvasProps={{width: 500, height: 200, className: 'sigCanvas'}} />
+           canvasProps={{width: 425, height: 175, className: 'sigCanvas'}} />
 
            <button
             className="submitbuttonguestbook"
