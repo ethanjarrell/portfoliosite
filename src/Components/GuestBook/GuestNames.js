@@ -25,8 +25,9 @@ class GuestNames extends Component {
       data.map((msg) => {
         return(
           <div key={msg.results}>
-            <h2>{msg.guestSignature}</h2>
-            <h3>{msg.message}</h3>
+            <h3 className="h3msg">{msg.message}</h3>
+
+            <h2 className="h2sig">-{msg.guestSignature}</h2>
           </div>
         )
       })
@@ -39,6 +40,7 @@ class GuestNames extends Component {
       return (
 
         <div className="guestdataContainer">
+          <h6>Guestbook Messages</h6>
           {this.state.messages}
         </div>
 

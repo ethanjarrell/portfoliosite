@@ -58,6 +58,8 @@ handleSignatureOfGuest(event) {
     return (
       <div className="bodyWrapper2">
       <div className="bodyWrapper">
+        <GuestNames />
+
         <div className="guestbookDiv">
 
         <form className="guestBookForm">
@@ -93,8 +95,6 @@ handleSignatureOfGuest(event) {
 
         </div>
 
-        <GuestNames />
-
         <div className="buttonContainer">
           <HomeButton className="link1" />
           <PortfolioButton className="link1" />
@@ -102,6 +102,7 @@ handleSignatureOfGuest(event) {
           <BlogButton className="link1" />
           <GuestBookButton className="link1" />
         </div>
+        
       </div>
     </div>
     )

@@ -565,6 +565,37 @@ mix-blend-mode: multiply;
   font-weight: bold;
 }
 
+.guestdataContainer {
+  width: 215px;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.h2sig {
+  text-align:right;
+  font-size: 19px;
+  color: black;
+  width: 200px;
+  border-bottom: black dashed 2px;
+
+}
+
+.h3msg {
+  padding-top: 1.5vh;
+  font-size: 16px;
+  color: #444444;
+  width: 200px;
+}
+
+h6 {
+  width: 250px;
+  font-size: 20px;
+  border-bottom: black solid 3px;
+  margin-bottom: -1vh;
+}
+
 @media only screen and (max-width: 1000px) {
 
   .buttonimg {
@@ -573,6 +604,15 @@ mix-blend-mode: multiply;
 
   .buttonimg:hover {
     transform: scale(.8);
+  }
+
+  .guestdataContainer {
+    margin-top:10vh;
+    width: 215px;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 90vh;
+    overflow: scroll;
   }
 
   .buttonContainer {
@@ -656,6 +696,23 @@ mix-blend-mode: multiply;
     padding-bottom: 50vh;
   }
 
+  .guestbookDiv {
+    margin-top: 0vh;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .guestdataContainer {
+
+    z-index: 1;
+    margin-top:70vh;
+    width: 215px;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 90vh;
+    overflow: scroll;
+  }
+
   .bodyWrapper {
     padding-bottom: 50vh;
   }
@@ -684,10 +741,6 @@ mix-blend-mode: multiply;
 
   .portfoliodescContainer {
     padding-top: 67vh;
-  }
-
-  .guestbookDiv {
-    padding-top: 50vh;
   }
 
   .buttonContainer {
