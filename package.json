@@ -5,17 +5,20 @@
   "dependencies": {
     "axios": "^0.16.2",
     "react": "^15.6.1",
+    "react-another-signature-pad": "^0.9.2",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
     "react-scripts": "^1.0.12",
     "react-signature-canvas": "^0.2.1",
     "react-signature-pad": "0.0.6",
+    "react-signature-pad-input": "0.0.7",
     "signature_pad": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && cd build && mv index.html 200.html && surge. --domain ethan.jarrell.webdeveloper.surge.sh"
   }
 }

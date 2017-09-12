@@ -5,6 +5,7 @@
   -o-transition: all .5s ease;
   transition: all .5s ease;
   mix-blend-mode: multiply;
+  outline: none;
 }
 
 body {
@@ -532,7 +533,36 @@ mix-blend-mode: multiply;
 
 .imgContainer3  img {
   margin: 15px;
+}
 
+.NameinputForm {
+  width: 200px;
+  height: 30px;
+  border: #E2DBD2 dashed 2px;
+  margin: 1vw;
+  box-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.MessageinputForm {
+  width: 200px;
+  height: 500px;
+  border: #E2DBD2 dashed 2px;
+  margin: 1vw;
+  box-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.GuestBookButton2 {
+  background-color: white;
+  margin: 1vw;
+  border: black solid 2px;
+  mix-blend-mode: luminosity;
+  width: 100px;
+
+}
+
+.guestlabel {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 1000px) {
