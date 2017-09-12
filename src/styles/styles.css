@@ -554,7 +554,6 @@ mix-blend-mode: multiply;
 .GuestBookButton2 {
   background-color: white;
   margin: 1vw;
-  border: black solid 2px;
   mix-blend-mode: luminosity;
   width: 100px;
 
@@ -566,18 +565,20 @@ mix-blend-mode: multiply;
 }
 
 .guestdataContainer {
-  width: 215px;
+  width: 250px;
   display: flex;
   flex-flow: column nowrap;
   height: 90vh;
-  overflow: scroll;
+  overflow-y: scroll;
+  border-bottom: #9b8f82 solid 4px;
+  border-right: #9b8f82 solid 2px;
 }
 
 .h2sig {
   text-align:right;
   font-size: 19px;
   color: black;
-  width: 200px;
+  width: 235px;
   border-bottom: black dashed 2px;
 
 }
@@ -586,11 +587,11 @@ mix-blend-mode: multiply;
   padding-top: 1.5vh;
   font-size: 16px;
   color: #444444;
-  width: 200px;
+  width: 235px;
 }
 
 h6 {
-  width: 250px;
+  width: 235px;
   font-size: 20px;
   border-bottom: black solid 3px;
   margin-bottom: -1vh;
@@ -608,11 +609,11 @@ h6 {
 
   .guestdataContainer {
     margin-top:10vh;
-    width: 215px;
+    width: 255px;
     display: flex;
     flex-flow: column nowrap;
     height: 90vh;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   .buttonContainer {
@@ -706,11 +707,11 @@ h6 {
 
     z-index: 1;
     margin-top:70vh;
-    width: 215px;
+    width: 255px;
     display: flex;
     flex-flow: column nowrap;
     height: 90vh;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   .bodyWrapper {
