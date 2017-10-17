@@ -18,11 +18,7 @@ class Portfolio extends Component {
     return (
       <div className="bodyWrapper2">
       <div className="bodyWrapper">
-        <div className="portfoliodescContainer">
-          <h5>In the Nimbo-Stratus project, I created a site where you could search for and play music by connecting to, and pulling data from the soundcloud API.</h5>
-          <h5 className="h5">This project was a personal project, which I designed to help me organize talks and presentations.  The app has a couple of different API calls, to try and make resources for planning a presentation available in the app, and also keeps all the presentations organized and easy to use.</h5>
-          <h5>In the draynori project is a educational game for kids, which teaches programming concepts, and uses a ruby on rails back end, and a react front end.</h5>
-        </div>
+        
 
         <div className="imgContainer">
           <a href={"http://ethan.jarrell.webdeveloper.soundcloud.surge.sh/"}>
