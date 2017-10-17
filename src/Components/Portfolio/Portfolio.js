@@ -20,7 +20,7 @@ class Portfolio extends Component {
       <div className="bodyWrapper">
         <div className="portfoliodescContainer">
           <h5>In the Nimbo-Stratus project, I created a site where you could search for and play music by connecting to, and pulling data from the soundcloud API.</h5>
-          <h5 className="h5">In the Stat-tracker project, I created a dynamic Mongo database with Node express, which is populated through user input, and rendered using mustache.</h5>
+          <h5 className="h5">This project was a personal project, which I designed to help me organize talks and presentations.  The app has a couple of different API calls, to try and make resources for planning a presentation available in the app, and also keeps all the presentations organized and easy to use.</h5>
           <h5>In the draynori project is a educational game for kids, which teaches programming concepts, and uses a ruby on rails back end, and a react front end.</h5>
         </div>
 
@@ -30,14 +30,16 @@ class Portfolio extends Component {
             <img className="noiseplayer" alt="noiseplayer website image" src={"noiseplayer.png"}/>
             <img className="noiseplayer" alt="noiseplayer website image" src={"noiseplayer2.png"}/>
           </div></a>
-          <a href={"https://mysterious-sea-17562.herokuapp.com/api/splash"}><div className="stattracker">
-            <img className="stattracker" alt="stattracker website image" src={"stattracker.png"} />
-            <img className="stattracker" alt="stattracker website image" src={"stattracker2.png"} />
+          <a href={"https://presentation-maker.herokuapp.com/landing"}><div className="stattracker">
+            <img className="stattracker" alt="stattracker website image" src={"talkmaker.png"} />
+            <img className="stattracker" alt="stattracker website image" src={"talkmaker.png"} />
           </div></a>
+        <a href={"https://draynori3.herokuapp.com/home"}>
           <div className="draynori">
             <h3>draynori (coming soon)</h3>
             <img className="draynori" alt="draynori website image" src={"draynori.png"} />
           </div>
+        </a>
         </div>
         <div className="buttonContainer">
           <HomeButton />
